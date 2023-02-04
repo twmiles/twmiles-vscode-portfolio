@@ -3,53 +3,53 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'nitinranganath.me',
-    href: 'https://nitinranganath.me',
+    link: 'twmiles.co',
+    href: 'https://twmiles.co',
   },
   {
     social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    link: 'tracywmiles@gmail.com',
+    href: 'mailto:tracywmiles@gmail.com',
   },
   {
     social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    link: 'twmiles',
+    href: 'https://github.com/twmiles',
   },
   {
     social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    link: 'twmiles',
+    href: 'https://www.linkedin.com/in/twmiles/',
   },
   {
     social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
+    link: 'TracyMiles12',
+    href: 'https://www.twitter.com/TracyMiles12',
   },
   {
     social: 'instagram',
-    link: 'iamnitinr',
-    href: 'https://www.instagram.com/iamnitinr',
+    link: 't.miles',
+    href: 'https://www.instagram.com/t.miles',
   },
   {
     social: 'polywork',
-    link: 'nitinranganath',
-    href: 'https://www.polywork.com/nitinranganath',
+    link: 'twmiles',
+    href: 'https://www.polywork.com/twmiles',
   },
   {
     social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
+    link: 'tracywmiles',
+    href: 'https://t.me/tracywmiles',
   },
   {
     social: 'codepen',
-    link: 'nitinranganath',
-    href: 'https://codepen.io/itsnitinr',
+    link: 'twmiles',
+    href: 'https://codepen.io/twmiles',
   },
   {
     social: 'codesandbox',
-    link: 'itsnitinr',
-    href: 'https://codesandbox.io/u/itsnitinr',
+    link: 'twmiles',
+    href: 'https://codesandbox.io/u/twmiles',
   },
 ];
 
