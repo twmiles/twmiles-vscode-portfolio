@@ -13,7 +13,7 @@ export default function HomePage() {
         <div className={styles.foreground}>
           <div className={styles.content}>
             <h1 className={styles.name}>Tracy Miles</h1>
-            <h6 className={styles.bio}>Anayst @ Societe Generale / <br/> Passionate Front-end JS Developer</h6>
+            <h6 className={styles.bio}>IT Resiliency Analyst @ Societe Generale / Passionate Front-end JS Developer</h6>
             <Link href="/projects">
               <button className={styles.button}>View Work</button>
             </Link>
