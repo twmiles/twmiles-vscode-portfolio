@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import ContactCode from '../components/ContactCode';
 import styles from '../styles/ContactPage.module.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css';
 
 const ContactPage = () => {
   const [name, setName] = useState('');
@@ -16,17 +18,20 @@ const ContactPage = () => {
       body: JSON.stringify({ name, email, subject, message }),
     });
     if (res.ok) {
-      alert('Your response has been received!');
+      toast('Hey there, message recieved! I\'ll get back to you asap 😆', { type: 'success' });
+      //alert('Hey there, message recieved! I\'ll get back to you asap 😆');
       setName('');
       setEmail('');
       setSubject('');
       setMessage('');
     } else {
-      alert('There was an error. Please try again in a while.');
+      toast('Please re-check your inputs.', { type: 'error' });
+      //alert('There was an error. Please try again in a while.');
     }
   };
 
   return (
+    
     <div className={styles.container}>
       <div>
         <h3 className={styles.heading}>Reach Out Via Socials</h3>
@@ -34,6 +39,7 @@ const ContactPage = () => {
       </div>
       <div>
         <h3 className={styles.heading}>Or Fill Out This Form</h3>
+        <ToastContainer />
         <form className={styles.form} onSubmit={submitForm}>
           <div className={styles.flex}>
             <div>
