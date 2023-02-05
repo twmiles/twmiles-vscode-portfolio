@@ -18,7 +18,10 @@ const ContactPage = () => {
       headers: {    
         'Accept': 'application/json',
         'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*' },
+        'Access-Control-Allow-Origin': '*' ,
+        'Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token': any,
+        'Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE, OPTIONS': any,
+      },
       body: JSON.stringify({ name, email, subject, message }),
     });
     if (res.ok) {
