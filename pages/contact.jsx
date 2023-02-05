@@ -15,6 +15,10 @@ const ContactPage = () => {
     console.log(process.env.NEXT_PUBLIC_API_URL);
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
       method: 'POST',
+      headers: {    
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*' },
       body: JSON.stringify({ name, email, subject, message }),
     });
     if (res.ok) {
