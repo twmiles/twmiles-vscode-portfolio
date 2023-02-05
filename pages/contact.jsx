@@ -3,7 +3,8 @@ import ContactCode from '../components/ContactCode';
 import styles from '../styles/ContactPage.module.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
-
+header('Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE, OPTIONS');
+header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
 const ContactPage = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -19,8 +20,6 @@ const ContactPage = () => {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
         'Access-Control-Allow-Origin': '*' ,
-        'Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token': any,
-        'Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE, OPTIONS': any,
       },
       body: JSON.stringify({ name, email, subject, message }),
     });
