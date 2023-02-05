@@ -208,6 +208,14 @@
     font-size: 1.75rem;
     margin: 0.75rem auto 3rem;
   }
+  .bio::before, .bio::after{
+    background: none;
+    animation:none;
+  }
+  .bio1::before, .bio1::after{
+    background: none;
+    animation:none;
+  }
 }
 
 /* iPad */
@@ -225,11 +233,27 @@
   .bio1 {
     font-size: 1.5rem;
   }
+  .bio::before, .bio::after{
+    background: none;
+    animation:none;
+  }
+  .bio1::before, .bio1::after{
+    background: none;
+    animation:none;
+  }
 }
 
 @media screen and (orientation: landscape) and (max-width: 1050px) {
   .container {
     display: flex;
+  }
+  .bio::before, .bio::after{
+    background: none;
+    animation:none;
+  }
+  .bio1::before, .bio1::after{
+    background: none;
+    animation:none;
   }
 }
 
@@ -243,11 +267,19 @@
   }
   .bio {
     font-size: 0.7rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
   .bio1 {
     font-size: 0.7rem;
     margin-bottom: 2rem;
+  }
+  .bio::before, .bio::after{
+    background: none;
+    animation:none;
+  }
+  .bio1::before, .bio1::after{
+    background: none;
+    animation:none;
   }
   .button {
     font-size: 1rem;
@@ -257,7 +289,7 @@
   }
 }
 /** Very small phones */
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 390px) {
   .buttonsContainer {
     display: flex;
     flex-direction: column;
@@ -275,5 +307,14 @@
     font-size: 1rem;
     margin: 0rem 1.5rem;
   }
+  .bio::before, .bio::after{
+    background: none;
+    animation:none;
+  }
+  .bio1::before, .bio1::after{
+    background: none;
+    animation:none;
+  }
+
 
 }
