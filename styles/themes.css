@@ -22,6 +22,10 @@
   --scrollbar-track-bg: #24292e;
   --scrollbar-thumb-bg: #333536;
   --article-bg: #1f2428;
+  --typewriterCharacters: 24;
+  --typewriterspeed: 2.5s;
+  --typewriterCharacters2: 24;
+  --typewriterspeed2: 2.5s;
 }
 
 /* Dracula */

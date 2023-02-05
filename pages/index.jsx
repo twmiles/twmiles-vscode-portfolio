@@ -13,13 +13,16 @@ export default function HomePage() {
         <div className={styles.foreground}>
           <div className={styles.content}>
             <h1 className={styles.name}>Tracy Miles</h1>
-            <h6 className={styles.bio}>IT Resiliency Analyst @ Societe Generale / <br/> Passionate Front-end JS Developer</h6>
+            <h6 className={styles.bio}>IT Resiliency Analyst @ Societe Generale /</h6>
+            <h6 className={styles.bio1}>Passionate Front-end JS Developer</h6>
+            <div className={styles.buttonsContainer}>
             <Link href="/projects">
               <button className={styles.button}>View Work</button>
             </Link>
             <Link href="/contact">
               <button className={styles.outlined}>Contact Me</button>
             </Link>
+            </div>
           </div>
           <div className={styles.illustration}>
             <Image src="/twmiles.png" alt="A picture of me" height={400} width={390} />
