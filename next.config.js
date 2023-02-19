@@ -4,20 +4,20 @@ const nextConfig = {
 
 module.exports = nextConfig
 
-module.exports = {
+const nextTranslate = require('next-translate');
+module.exports = nextTranslate({
   images: {
-    domains: [
-      'res.cloudinary.com',
-      'avatars.githubusercontent.com',
-      'imgur.com',
-    ],
+    domains: ['res.cloudinary.com', 'avatars.githubusercontent.com', 'imgur.com'],
+  },
+  i18n: {
+    localeDetection: false,
   },
   async headers() {
     return [
       {
-        // matching all API routes
-        source: "/api/:path*",
-        headers: [
+         //matching all API routes
+          source: "/api/:path*",
+          headers: [
           { key: "Access-Control-Allow-Credentials", value: "true" },
           { key: "Access-Control-Allow-Origin", value: "*" },
           { key: "Access-Control-Allow-Methods", value: "GET,OPTIONS,PATCH,DELETE,POST,PUT" },
@@ -26,4 +26,10 @@ module.exports = {
       }
     ]
   }
-};
+});
+
+
+
+
+
+
