@@ -20,14 +20,14 @@ const ContactPage = () => {
       body: JSON.stringify({ name, email, subject, message }),
     });
     if (res.ok) {
-      toast(t('submitted'), { type: 'success' });
+      toast('Hey there, message recieved! I\'ll get back to you asap 😆', { type: 'success' });
       //alert('Hey there, message recieved! I\'ll get back to you asap 😆');
       setName('');
       setEmail('');
       setSubject('');
       setMessage('');
     } else {
-      toast(t('submitted-error'), { type: 'error' });
+      toast('Please re-check your inputs.', { type: 'error' });
       //alert('There was an error. Please try again in a while.');
     }
   };
