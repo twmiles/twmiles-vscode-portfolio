@@ -1,5 +1,5 @@
 {
-    "title": "test",
+    "title": "Reach Out Via Socials",
     "form": "Or Fill Out This Form",
     "name": "Name",
     "email": "Email",
@@ -8,4 +8,4 @@
     "submit": "Submit",
     "submitted": "Hey there, message recieved! I'll get back to you asap 😆",
     "submitted-error": "Please re-check your inputs."
-}
+  }
