@@ -7,7 +7,6 @@ const SettingsPage = () => {
   const { t } = useTranslation('settings');
   return (
     <>
-      <h2>Manage Themes</h2>
       <h2>{t('manage_themes')}</h2>
       <div className={styles.container}>
         <ThemeInfo name="GitHub Dark" icon="/github-dark.png" publisher="GitHub" theme="github-dark" description="GitHub theme for VS Code" />
