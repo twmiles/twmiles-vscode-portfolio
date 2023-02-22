@@ -6,6 +6,6 @@
     "subject": "제목",
     "message": "내용",
     "submit": "제출",
-    "submitted": "Your response has been received!",
-    "submitted-error": "There was an error. Please try again in a while."
+    "submitted": "메세지 제출이 완료되었습니다! 빠른 시일 내에 답장 드리겠습니다 😆",
+    "submitted-error": "입력한 내용을 다시 확인해주세요."
   }
