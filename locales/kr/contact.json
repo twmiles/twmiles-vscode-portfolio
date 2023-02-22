@@ -1,11 +1,11 @@
 {
-    "title": "Reach Out Via Socials",
-    "form": "Or Fill Out The Form",
-    "name": "Name",
-    "email": "Email",
-    "subject": "Subject",
-    "message": "Message",
-    "submit": "Submit",
+    "title": "아래 소셜미디어를 통해 연락바랍니다.",
+    "form": "또는 폼을 제출해주시기 바랍니다.",
+    "name": "이름",
+    "email": "이메일",
+    "subject": "제목",
+    "message": "내용",
+    "submit": "제출",
     "submitted": "Your response has been received!",
     "submitted-error": "There was an error. Please try again in a while."
-  }
+}
