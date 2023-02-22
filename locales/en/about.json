@@ -1,3 +1,12 @@
 {
-    "title": "A Little Bit About Me"
+    "title": "A Little Bit About Me",
+    "age": "Age",
+    "age-description": "23",
+    "experiences": "Experiences",
+    "experiences-description": "- Societe Generale (Technology Analyst) 1 year <0/>",
+    "languages": "Languages",
+    "languages-description": "HTML, CSS, JavaScript, ReactJS, Typescript, NodeJS, ReactNative",
+    "frameworks": "Frameworks / libs",
+    "frameworks-description": "NextJS, Redux, React Query",
+    "hobbies": "Hobbies"
 }

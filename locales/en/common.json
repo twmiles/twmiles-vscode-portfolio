@@ -8,5 +8,6 @@
     "go": "Go",
     "run": "Run",
     "terminal": "Terminal",
-    "help": "Help"
+    "help": "Help",
+    "titlebar": "Tracy Miles - Visual Studio Code"
   }
