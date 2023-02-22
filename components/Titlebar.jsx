@@ -22,7 +22,7 @@ const Titlebar = () => {
         <p>{t('terminal')}</p>
         <p>{t('help')}</p>
       </div>
-      <p className={styles.title}>Tracy Miles - Visual Studio Code</p>
+      <p className={styles.title}>{t('titlebar')}</p>
       <div className={styles.windowButtons}>
         <span className={styles.minimize}></span>
         <span className={styles.maximize}></span>
